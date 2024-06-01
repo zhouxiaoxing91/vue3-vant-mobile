@@ -1,6 +1,7 @@
 import { createI18n } from 'vue-i18n'
 import enUS from 'vant/es/locale/lang/en-US'
 import zhCN from 'vant/es/locale/lang/zh-CN'
+import ptBR from 'vant/es/locale/lang/pt-BR'
 
 /**
  * All i18n resources specified in the plugin `include` option can be loaded
@@ -16,6 +17,7 @@ const FALLBACK_LOCALE = 'zh-CN'
 export const languageColumns: PickerColumn = [
   { text: '简体中文', value: 'zh-CN' },
   { text: 'English', value: 'en-US' },
+  { text: 'Portugués', value: 'pt-BR' },
 ]
 
 /** 获取当前语言对应的语言包名称 */
@@ -52,6 +54,7 @@ export const locale = computed({
 // 载入 vant 语言包
 Locale.use('zh-CN', zhCN)
 Locale.use('en-US', enUS)
+Locale.use('pt-BR', ptBR)
 
 // 根据当前语言切换 vant 语言包
 Locale.use(locale.value)

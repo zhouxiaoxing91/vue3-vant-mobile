@@ -1,0 +1,36 @@
+{
+  "home": {
+    "darkMode": "🌗 Modo Escuro",
+    "mockGuide": "💿 Guia Mock",
+    "language": "📚 Idioma",
+    "404Demo": "🙅 Demonstração da Página 404",
+    "echartsDemo": "📊 Demonstração de Echarts",
+    "persistPiniaState": "🍍 Estado Persistente de Pinia",
+    "unocssExample": "🎨 Exemplo Unocss",
+    "keepAlive": "🧡 Demonstração KeepAlive"
+  },
+  "mock": {
+    "fromAsyncData": "Dados de solicitações assíncronas",
+    "noData": "Sem dados",
+    "pull": "Puxar",
+    "reset": "Redefinir"
+  },
+  "charts": {
+    "January": "Jan",
+    "February": "Fev",
+    "March": "Mar",
+    "April": "Abr",
+    "May": "Mai",
+    "June": "Jun"
+  },
+  "layouts": {
+    "home": "INÍCIO",
+    "profile": "PERFIL"
+  },
+  "profile": {
+    "placeholder": "Em progresso"
+  },
+  "keepAlive": {
+    "label": "O componente atual será armazenado em cache"
+  }
+}
